@@ -1,0 +1,33 @@
+/* font */
+@font-face {
+  font-family: 'Comic CAT';
+    src: url('/assets/fonts/comic_cat/Comic_CAT.otf') format('opentype');
+}
+
+/* navbar */
+.navbar .btn {
+  margin-right: 0.75rem;
+  padding: 0.5rem 1.25rem;
+}
+
+/* home page */
+#home {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+p {
+  font-family: 'Comic CAT', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Comic CAT', sans-serif;
+}
+
+
+
+#home img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
