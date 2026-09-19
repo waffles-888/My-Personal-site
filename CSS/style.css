@@ -52,3 +52,9 @@ h3 {
   max-width: 28rem;
   text-align: center;
 }
+
+/* About page */
+#about {
+  text-align: center;
+  margin-top: 2rem;
+}
