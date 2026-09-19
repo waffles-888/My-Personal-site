@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 <body id="home">
 <nav class="navbar bg-body-tertiary sticky-top">
   <form class="container-fluid justify-content-start">
@@ -15,10 +16,36 @@
     <a class="btn btn-sm btn-outline-info" type="button" href="about.html">About me</a>
   </form>
 </nav>
-    <img src="assets/images/waffles888.png" alt="Waffles" style="display: block; margin: 0 auto; width: 200px; height: auto;">
+    <img id="profile-image" src="assets/images/waffles888.png" alt="Waffles" style="display: block; margin: 0 auto; width: 200px; height: auto;">
     <h1>Hello I am Waffles</h1>
     <h2>Welcome to my personal site!</h2>
     <p>Here you can find information about me and my projects.</p>
+
+    <h3> An image carrousel of my projects can be seen below :)</h3>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assets/images/HackPad_schematic.png" class="d-block w-100" alt="schematic of HackPad">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/images/SimpleHackPad_PCB.png" class="d-block w-100" alt="PCB of SimpleHackPad">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/images/SimpleHackPad_together.png" class="d-block w-100" alt="assembly of HackPad">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/images/Smart_downloads_manager.png" class="d-block w-100" alt="assembly of HackPad">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
 </body>
 </html>

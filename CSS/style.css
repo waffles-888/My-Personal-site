@@ -24,10 +24,31 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Comic CAT', sans-serif;
 }
 
+h3 {
+  margin-top: 2rem;
+}
 
-
-#home img {
+#home #profile-image {
   max-width: 100%;
   height: auto;
   border-radius: 50%;
+}
+
+/* carousel */
+.carousel {
+  margin: 2rem 0;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-inner {
+  border-radius: 12px;
+  overflow: hidden;
+}
+/* projects page */
+.card {
+  margin: 2rem 0;
+  max-width: 28rem;
+  text-align: center;
 }
